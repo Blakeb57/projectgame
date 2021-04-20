@@ -26,19 +26,18 @@
 
 #ifndef COLORS_H
 #define COLORS_H
-
 #include <string>
 using namespace std;
 
-const string BLINK     = "\e[5m";          //don't use this your
-					   //professor will probibly
-					   //beat you to death if
-					   //you do feel the need to
-					   //use blink!!!
-const string BOLD      = "\e[1m";
+const string BLINK = "\e[5m";          	//don't use this your
+					   					//professor will probibly
+										//beat you to death if
+					   					//you do feel the need to
+					   					//use blink!!!
+const string BOLD      	= "\e[1m";
 
-const string RESET     = "\e[0m";
-const string ERROR     = "\e[1;41;37m\a";
+const string RESET     	= "\e[0m";
+const string ERROR     	= "\e[1;41;37m\a";
 const string MENU       = "\e[44;37m";
 
 const string BLACK      = "\e[30m";
